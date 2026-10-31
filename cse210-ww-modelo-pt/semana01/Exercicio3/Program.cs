@@ -3,7 +3,7 @@ using System;
 class Program
 {
     static void Main(string[] args)
-    {           
+    {        
         string resposta = "sim";
 
         while (resposta == "sim")
@@ -41,10 +41,6 @@ class Program
 
             Console.Write("Jogar novamente? ");
             resposta = Console.ReadLine();
-        }
-
-        
-
-        
+        }        
     }
 }
