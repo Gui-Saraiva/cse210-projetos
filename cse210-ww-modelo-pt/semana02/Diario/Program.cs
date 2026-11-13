@@ -1,9 +1,12 @@
 using System;
+using System.Formats.Asn1;
+using System.Reflection.Metadata;
 
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Olá, Mundo! Este é o Projeto Diario.");
+        string opcao = Entrada.ReceberEntrada();
+        OpcaoDesejada executar = new OpcaoDesejada(opcao);
     }
 }
