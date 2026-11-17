@@ -1,5 +1,6 @@
 using System;
-
+// para ir alem dos requisitos eu criei a classe BibliotecaEscrituras e coloquei mais escrituras com suas 
+// referencias para serem sorteadas para o usuario ao iniciar o programa.
 class Program
 {
     static void Main(string[] args)
